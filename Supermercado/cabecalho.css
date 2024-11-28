@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+}
+
+header .line{
+        font-family: 'Titillium Web', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFd307;
+        max-width: 100%;
+}
+
+.logoemail{
+        width: 1.5%;
+}
+.logocell{
+        width: 1.5%;
+}
+.cell{
+        width: 120px;
+}
+
+.container{
+        font-family: 'Titillium Web', sans-serif;
+        width: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+        cursor: pointer;
+}
+
+header{
+        width: 100%;
+        background-color: black;
+}
+
+
+.logo{
+        width: 30%;
+        cursor: pointer;
+}
+
+.menu{
+        width: 40%;
+}
+
+.menu nav a{
+        color: #ffffff;
+        text-decoration: none;
+        padding-right: 50px;
+        font-size: 22px;
+        position: relative;
+}
+
+.menu nav a::after{
+        content: " ";
+        width: 0px;
+        height: 4px;
+        background-image: linear-gradient(45deg, #ff2500, #FFd307);
+        position: absolute;
+        left: 0;
+        top: 35px;
+        transition: 0.5s;
+
+}
+
+.menu nav a:hover::after{
+        width: 40px;
+}
+
+body{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+}

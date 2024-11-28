@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(80deg, #ff7f07, #f7e705);
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+        width: 100vw;
+}
+
+.tela-login{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.inputsubmit{
+    background-color: #FFd307;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.inputsubmit:hover{
+    background-color: #cfaa03;
+    cursor: pointer;
+}
+
+.cadastro{
+    background-color: black;
+    border: none;
+    padding: 22px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 5px 5px rgb(255, 255, 255, 0.11);
+}
+
+.cadastro:hover{
+    background-color: rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #FFd307;
+    font-size: 22px;
+    padding: 30px;
+    margin-top: 50%;
+}
+
+.nome{
+    color: #ff0000;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

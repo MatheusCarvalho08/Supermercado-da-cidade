@@ -1,0 +1,17 @@
+footer{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #FFd307;
+    font-size: 22px;
+    padding: 30px;
+}
+
+.nome{
+    color: #ff0000;
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

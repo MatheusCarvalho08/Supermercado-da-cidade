@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+}
+
+header .line{
+        font-family: 'Titillium Web', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFd307;
+        max-width: 100%;
+}
+
+.logoemail{
+        width: 1.5%;
+}
+.logocell{
+        width: 1.5%;
+}
+.cell{
+        width: 120px;
+}
+
+.container{
+        font-family: 'Titillium Web', sans-serif;
+        width: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 10px;
+        cursor: pointer;
+}
+
+header{
+        width: 100%;
+        background-color: black;
+}
+
+
+.logo{
+        width: 30%;
+        cursor: pointer;
+}
+
+.menu{
+        width: 50%;
+}
+
+.menu nav a{
+        color: #ffffff;
+        text-decoration: none;
+        padding-right: 20px;
+        font-size: 22px;
+        position: relative;
+}
+
+.menu nav a::after{
+        content: " ";
+        width: 0px;
+        height: 4px;
+        background-image: linear-gradient(45deg, #ff2500, #FFd307);
+        position: absolute;
+        left: 0;
+        top: 35px;
+        transition: 0.5s;
+
+}
+
+.menu nav a:hover::after{
+        width: 40px;
+}
+
+.sair{
+    background-color: #FFd307;
+    color: black;
+    padding: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;  
+    font-family:  'Titillium Web', sans-serif;
+    font-size: 18px;
+    margin-right: 80px;
+
+    transition: 0.2s;
+}
+
+.sair:hover{
+    background-color: transparent;
+    color: #FFd307;
+}
+
+body{
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+}
+
+.titulo-produto{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    justify-content: center;
+    height: 30px;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.conteiner{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 50px;
+}
+
+.produto-titulo{
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.produto-imagem{
+    width: 300px;
+}
+
+.produto-preco-conteiner{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.produtoo-preco{
+    margin-right: 20px;
+    font-family:  'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.produto-botao{
+        background-color: #FFd307;
+        color: black;
+        border: 2px solid #FFd307;
+        border-radius: 6px;
+        padding: 10px 8px;
+        font-weight: bold;
+        cursor: pointer;  
+        font-family:  'Titillium Web', sans-serif;
+        font-size: 16px;
+
+        transition: 0.2s;
+    }
+
+.produto-botao:hover{
+        background-color: transparent;
+        color: #FFd307;
+    }
+
+.linha{
+    width: 50%;
+    height: 2px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #6d6c6c;
+    box-shadow: 2px 2px rgb(199, 199, 199);
+}
+
+
+.tabela, th, td{
+    border-collapse: collapse; /*define a separação entre as bordar*/
+    padding: 0 50px;
+}
+
+.inicio{
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+.meio{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(131, 131, 131);
+}
+
+.botao-quantidade{
+    background-color: #acacac;
+    color: rgb(0, 0, 0);
+    border: 2px solid #07b9ff;
+    border-radius: 6px;
+    padding: 10px 8px;
+    font-weight: bold;
+    cursor: pointer;  
+    font-family:  'Titillium Web', sans-serif;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.botao-tabela{
+    background-color: #ff0707;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ff0707;
+    border-radius: 6px;
+    padding: 10px 8px;
+    font-weight: bold;
+    cursor: pointer;  
+    font-family:  'Titillium Web', sans-serif;
+    font-size: 16px;
+
+    transition: 0.2s;
+}
+
+.botao-tabela:hover{
+    background-color: transparent;
+    color: #000000;
+}
+
+.final{
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.botao-compra{
+    background-color: #62ff07;
+    color: rgb(0, 0, 0);
+    border: 2px solid #62ff07;
+    border-radius: 6px;
+    padding: 10px 8px;
+    font-weight: bold;
+    cursor: pointer;  
+    font-family:  'Titillium Web', sans-serif;
+    font-size: 16px;
+
+    transition: 0.2s;
+}
+
+.botao-compra:hover{
+    background-color: transparent;
+    color: #000000;
+}
+
+footer{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #FFd307;
+    font-size: 22px;
+    padding: 30px;
+}
+
+.nome{
+    color: #ff0000;
+}
+
